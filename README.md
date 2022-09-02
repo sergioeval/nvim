@@ -17,6 +17,6 @@ In my case, in windows is : ~/AppData/Local
 
 
 # Sample: 
-[sample](https://user-images.githubusercontent.com/39163919/188173479-ba7a0407-387e-4a7f-899d-6776e93359f1.png)
+![sample](https://user-images.githubusercontent.com/39163919/188173479-ba7a0407-387e-4a7f-899d-6776e93359f1.png)
 
 
