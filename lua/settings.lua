@@ -43,6 +43,7 @@ glo.python3_host_prog = "C:\\Python39\\python.exe"
 -- indent config 
 opt.list = true
 opt.listchars:append "eol:↴"
+opt.listchars:append "space:⋅"
 opt.termguicolors = true
 cmd [[highlight IndentBlanklineIndent1 guifg=#E06C75 gui=nocombine]]
 cmd [[highlight IndentBlanklineIndent2 guifg=#E5C07B gui=nocombine]]
