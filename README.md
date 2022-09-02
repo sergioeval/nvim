@@ -3,6 +3,7 @@ nvim lua configuration
 
 # Simple nvim folder lua configuration
 ## If you want to use this config you just have to do this: 
+### Note: With this you are completely changing your nvim folder
 
 1.- Go to your path where you can see the nvim folder. 
 In my case, in windows is : ~/AppData/Local
