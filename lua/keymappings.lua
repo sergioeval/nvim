@@ -8,7 +8,7 @@ mapper("n", "<Leader>w", ":w<CR>")
 mapper("n", "<Leader>q", ":q<CR>")
 
 --NerdTree
-mapper("n", "<Leader>nt", ":NERDTree<CR>")
+mapper("n", "<Leader>nt", ":NERDTreeToggle<CR>")
 
 -- coc config
 mapper("n", "gd", ":call CocActionAsync('jumpDefinition')<CR>")
