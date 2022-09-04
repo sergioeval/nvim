@@ -17,7 +17,7 @@ mapper("n", "gi", ":call CocActionAsync('jumpImplementation')<CR>")
 mapper("n", "gr", ":call CocActionAsync('jumpReference')<CR>")
 
 --open init.lua 
-mapper("n", "<Leader>li", ":e ~/AppData/Local/nvim/init.lua<CR>")
-mapper("n", "<Leader>lm", ":e ~/AppData/Local/nvim/lua/keymappings.lua<CR>")
-mapper("n", "<Leader>ls", ":e ~/AppData/Local/nvim/lua/settings.lua<CR>")
-mapper("n", "<Leader>lp", ":e ~/AppData/Local/nvim/lua/packer-plugins.lua<CR>")
+mapper("n", "<Leader>li", ":e ~/.config/nvim/init.lua<CR>")
+mapper("n", "<Leader>lm", ":e ~/.config/nvim/lua/keymappings.lua<CR>")
+mapper("n", "<Leader>ls", ":e ~/.config/nvim/lua/settings.lua<CR>")
+mapper("n", "<Leader>lp", ":e ~/.config/nvim/lua/packer-plugins.lua<CR>")

@@ -21,8 +21,9 @@ o.cursorline = true
 o.tabstop=2
 o.shiftwidth=2
 o.expandtab = true
+cmd("set colorcolumn=80")
 --vim.opt.dictionary:append("C:\\Users\\SERGIOESTRADAVALENZU\\Documents\\GitHub\\sergioeval\\nvim_files_config_windows\\htmlTags.txt")
-opt.dictionary:append("C:\\Users\\SERGIOESTRADAVALENZU\\AppData\\Local\\nvim\\lua\\htmlTags.txt")
+--opt.dictionary:append("C:\\Users\\SERGIOESTRADAVALENZU\\AppData\\Local\\nvim\\lua\\htmlTags.txt")
 opt.iskeyword:append("<")
 opt.iskeyword:append(">")
 opt.iskeyword:append("/")
@@ -38,13 +39,13 @@ glo.NERDTreeQuitOnOpen = 1
 glo.NERDTreeShowHidden=1
 
 -- python env 
-glo.python3_host_prog = "C:\\Python39\\python.exe"
+--glo.python3_host_prog = "C:\\Python39\\python.exe"
 
 -- indent config 
 opt.list = true
 opt.listchars:append "eol:↴"
 opt.listchars:append "space:⋅"
-opt.termguicolors = true
+--opt.termguicolors = true
 cmd [[highlight IndentBlanklineIndent1 guifg=#E06C75 gui=nocombine]]
 cmd [[highlight IndentBlanklineIndent2 guifg=#E5C07B gui=nocombine]]
 cmd [[highlight IndentBlanklineIndent3 guifg=#98C379 gui=nocombine]]
