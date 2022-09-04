@@ -1,6 +1,8 @@
 # nvim
 nvim lua configuration
 
+# NOTE: USE "macos" BRANCH FOR MAC
+
 # Simple nvim folder lua configuration
 ## If you want to use this config you just have to do this: 
 ### Note: With this you are completely changing your nvim folder
