@@ -21,13 +21,15 @@ o.cursorline = true
 o.tabstop=2
 o.shiftwidth=2
 o.expandtab = true
+--o.autoindent = true
 cmd("set colorcolumn=80")
+cmd("filetype indent on")
 --vim.opt.dictionary:append("C:\\Users\\SERGIOESTRADAVALENZU\\Documents\\GitHub\\sergioeval\\nvim_files_config_windows\\htmlTags.txt")
---opt.dictionary:append("C:\\Users\\SERGIOESTRADAVALENZU\\AppData\\Local\\nvim\\lua\\htmlTags.txt")
-opt.iskeyword:append("<")
-opt.iskeyword:append(">")
-opt.iskeyword:append("/")
-opt.iskeyword:append(".")
+--opt.dictionary:append("/Users/sev/.config/nvim/lua/htmlTags.txt")
+--opt.iskeyword:append("<")
+--opt.iskeyword:append(">")
+--opt.iskeyword:append("/")
+--opt.iskeyword:append(".")
 --vim.opt.iskeyword:append("-")
 
 --plugin color scheme option 
@@ -52,3 +54,7 @@ cmd [[highlight IndentBlanklineIndent3 guifg=#98C379 gui=nocombine]]
 cmd [[highlight IndentBlanklineIndent4 guifg=#56B6C2 gui=nocombine]]
 cmd [[highlight IndentBlanklineIndent5 guifg=#61AFEF gui=nocombine]]
 cmd [[highlight IndentBlanklineIndent6 guifg=#C678DD gui=nocombine]]
+
+
+
+
