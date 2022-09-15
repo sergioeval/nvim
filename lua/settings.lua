@@ -21,6 +21,8 @@ o.cursorline = true
 o.tabstop=2
 o.shiftwidth=2
 o.expandtab = true
+cmd("set colorcolumn=80")
+cmd("filetype indent on")
 --vim.opt.dictionary:append("C:\\Users\\SERGIOESTRADAVALENZU\\Documents\\GitHub\\sergioeval\\nvim_files_config_windows\\htmlTags.txt")
 --opt.dictionary:append("C:\\Users\\SERGIOESTRADAVALENZU\\AppData\\Local\\nvim\\lua\\htmlTags.txt")
 --opt.iskeyword:append("<")
