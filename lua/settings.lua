@@ -48,8 +48,8 @@ opt.list = true
 opt.listchars:append "eol:↴"
 opt.listchars:append "space:⋅"
 
---opt.termguicolors = true
---glo.indent_blankline_char_highlight_list = 1
+opt.termguicolors = true
+glo.indent_blankline_char_highlight_list = 1
 cmd [[highlight IndentBlanklineIndent1 guifg=#E06C75 gui=nocombine]]
 cmd [[highlight IndentBlanklineIndent2 guifg=#E5C07B gui=nocombine]]
 cmd [[highlight IndentBlanklineIndent3 guifg=#98C379 gui=nocombine]]
