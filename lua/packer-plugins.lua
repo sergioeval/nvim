@@ -13,7 +13,7 @@ return require('packer').startup(function()
 	--nerdtree tree
 	use 'preservim/nerdtree'
 	-- coc
-	use 'neoclide/coc.nvim'
+  use { 'neoclide/coc.nvim', branch='release' }
 
   -- light line 
   use 'itchyny/lightline.vim'

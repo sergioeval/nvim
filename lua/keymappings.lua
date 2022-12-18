@@ -48,7 +48,7 @@ function countrySelect()
       "<React.Fragment></React.Fragment>",
       "<Fragment></Fragment>",
       "<section></section>",
-      '<img src="" alt=""></section>',
+      '<img src="" alt="" />',
     }, {
     prompt = "Select a Tag",
     format_item = function(item)
