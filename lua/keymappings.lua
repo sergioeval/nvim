@@ -5,7 +5,7 @@ end
 vim.g.mapleader = ' '
 
 -- my keys general
-mapper("n", "<Leader>w", ":w<CR>")
+mapper("n", "<Leader>w", ":Prettier<CR>:w<CR>")
 mapper("n", "<Leader>q", ":q<CR>")
 mapper("i", "''", "''<left>")
 mapper('i', '""', '""<left>')
@@ -34,6 +34,7 @@ function countrySelect()
       "<h3></h3>", 
       "<h4></h4>", 
       "<div></div>",
+      "<!--  -->",
       '<a class="" href=""></a>',
       "<form></form>", 
       "<ul></ul>",

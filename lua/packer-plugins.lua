@@ -21,5 +21,10 @@ return require('packer').startup(function()
   -- indent lines 
   --use 'nathanaelkane/vim-indent-guides'
   use "lukas-reineke/indent-blankline.nvim"
+  use {
+    'prettier/vim-prettier',
+    run = 'yarn install',
+    ft = {'javascript', 'typescript', 'css', 'less', 'scss', 'graphql', 'markdown', 'vue', 'html', 'python'}
+  }
 
 end)
