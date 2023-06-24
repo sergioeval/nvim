@@ -5,7 +5,8 @@ end
 vim.g.mapleader = ' '
 
 -- my keys general
-mapper("n", "<Leader>w", ":Prettier<CR>:w<CR>")
+mapper("n", "<Leader>pw", ":Prettier<CR>:w<CR>")
+mapper("n", "<Leader>w", ":w<CR>")
 mapper("n", "<Leader>q", ":q<CR>")
 mapper("i", "''", "''<left>")
 mapper('i', '""', '""<left>')
